@@ -1,0 +1,193 @@
+/* reset */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+/* layout */
+
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+#aside {
+    grid-area: aside1;
+    float: right;
+}
+
+.content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    border: #333;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size: 70px;
+}
+
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+nav {
+    background-color: #4570ff;
+
+}
+
+#main-nav>img {
+    float: left;
+    margin: 0
+}
+
+*/ nav .main nav {
+    background-color: #ff4545;
+    clear: both;
+    height: 50%;
+}
+
+nav #logo {
+    float: left;
+    width: 1em;
+    margin: 0;
+}
+
+nav #navlist {
+    margin-left: 40px;
+    align-items: center;
+
+}
+
+nav li {
+    display: inline;
+    list-style-type: square;
+    margin-left: 10rem;
+    padding-left: 5px;
+    color: #333;
+    align-items: center;
+}
+
+
+
+/* Aside Styles */
+#aside {
+    border-right: 2px solid #333;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10%;
+}
+
+.image p {
+    font-size: 17px;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2%;
+    column-gap: 15%;
+
+}
+
+h1 {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav #main-nav {
+    background-color: #ff4545;
+    clear: both;
+    height: 50%;
+}
+
+nav #logo {
+    float: left;
+    width: 3.3em;
+    margin: 10px;
+}
+
+nav #navlist {
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+nav li {
+    display: inline;
+    margin-left: 17rem;
+    padding-left: 5px;
+    color: #333;
+    align-items: center;
+}
+
+nav a:link {
+    line-height: 75px;
+    height: 75px;
+    padding: 0.5em;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
